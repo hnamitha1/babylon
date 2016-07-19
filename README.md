@@ -12,7 +12,7 @@ $ git clone https://github.com/hnamitha1/babylon.git
 $ cd babylon
 $ bundle install
 $ rspec
-$ ruby feature.rb 
+$ ruby feature_spec.rb 
 ```
 
 

@@ -4,7 +4,7 @@ class TotalPriceDiscount
     @percentage = percentage.to_f
   end
 
-  def discount(total)
+  def discount(_, total)
     if total.to_f > threshold
       discount_amount(total.to_f).round 2
     else

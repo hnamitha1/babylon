@@ -11,7 +11,25 @@ class Checkout
 		@basket << item;
 	end
 
-	private 
+	def total
+    (total_price - total_discount).round 2
+  end
 
-	attr_accessor :promo_rules, :basket
+  private
+
+  attr_accessor :basket, :promo_rules
+
+  def total_price
+    basket.map(&:price).inject(:+)
+  end
+
+  def total_discount
+    discounts.inject(:+)
+  end
+
+  def discounts
+    promo_rules.map do |rule|
+      rule.discount(basket, total_price)
+    end
+  end
 end

@@ -1,4 +1,4 @@
-Checkout [![Build Status](https://travis-ci.org/hnamitha1/checkout.svg?branch=master)](https://travis-ci.org/hnamitha1/checkout)[![Coverage Status](https://coveralls.io/repos/github/hnamitha1/checkout/badge.svg?branch=master)](https://coveralls.io/github/hnamitha1/checkout?branch=master)
+Checkout  [![Build Status](https://travis-ci.org/hnamitha1/checkout.svg?branch=master)](https://travis-ci.org/hnamitha1/checkout) [![Coverage Status](https://coveralls.io/repos/github/hnamitha1/checkout/badge.svg?branch=master)](https://coveralls.io/github/hnamitha1/checkout?branch=master)
 =================
 
 **Author:** Namitha Hanumantharaya

@@ -1,5 +1,5 @@
 class TotalPriceDiscount
-	def initialize(threshold, percentage)
+  def initialize(threshold, percentage)
     @threshold = threshold.to_f
     @percentage = percentage.to_f
   end

@@ -7,7 +7,7 @@ describe ItemPriceDiscount do
           new_price: 8.50, quantity_threshold: 2 }
 
 
-	describe '#discount' do
+  describe '#discount' do
     it 'returns the discount amount' do
       expect(total_item.discount(items, 18.50)).to eq 1.50
     end

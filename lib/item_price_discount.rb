@@ -1,5 +1,5 @@
 class ItemPriceDiscount
-	def initialize(product_code:, new_price:, quantity_threshold:)
+  def initialize(product_code:, new_price:, quantity_threshold:)
     @product_code = product_code.to_s
     @new_price = new_price.to_f
     @quantity_threshold = quantity_threshold.to_i
